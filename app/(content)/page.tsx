@@ -1,4 +1,5 @@
 "use client";
+import FAQ from "@/components/faq";
 import Features from "@/components/features";
 import Hero from "@/components/hero";
 import HowItWorks from "@/components/how-it-works";
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Features />
       <Pricing />
       <Testimonials />
+      <FAQ />
       <NewsLetter />
     </section>
   );

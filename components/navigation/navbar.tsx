@@ -4,7 +4,7 @@ import Icons from "../global/icons";
 
 const Navbar = () => {
   return (
-    <header className="px-4 h-14 top-0 inset-x-0 w-full bg-background/40 backdrop-blur-lg border-b border-border z-50">
+    <header className="px-4 h-14 sticky top-0 inset-x-0 w-full bg-background/40 backdrop-blur-lg border-b border-border z-50">
       <div className="flex items-center justify-between h-full mx-auto md:max-w-screen-xl">
         <div className="flex items-start">
           <Link href="/" className="flex items-center gap-x-2">
@@ -25,6 +25,9 @@ const Navbar = () => {
             </li>
             <li className="hover:text-foreground/80 text-sm">
               <Link href={"#testimonials"}>Opinie</Link>
+            </li>
+            <li className="hover:text-foreground/80 text-sm">
+              <Link href={"#faq"}>FAQ</Link>
             </li>
           </ul>
         </nav>

@@ -11,7 +11,7 @@
     /* CSS: .bg-gradient { background: var(--gradient) } */
     --gradient: linear-gradient(to top left, #007adf, #00ecbc);
 
-    --background: 220 65% 3.52%;
+    --background: 220 65% 10%;
     --foreground: 220 10% 97.2%;
 
     --muted: 220 50% 13.2%;
