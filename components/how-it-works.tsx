@@ -6,7 +6,7 @@ import { perks } from "@/constants/index";
 
 const HowItWorks = () => {
   return (
-    <div id="how-it-works">
+    <div id="how-it-works" className="pt-8">
       <Wrapper className="flex flex-col items-center justify-center py-12 relative">
         {/** HEADER AREA */}
         <Container>
