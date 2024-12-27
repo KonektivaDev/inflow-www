@@ -39,7 +39,19 @@ const FAQ = () => {
                     className="w-full"
                   >
                     <AccordionTrigger>{item.question}</AccordionTrigger>
-                    <AccordionContent>{item.answer}</AccordionContent>
+                    <AccordionContent>
+                      {item.answer}
+                      {item.bullets && (
+                        <ul className="list-disc list-inside">
+                          {item.bullets.map((bullet, index) => (
+                            <li key={index}>
+                              <span className="font-bold">{bullet.title}</span>{" "}
+                              {bullet.info}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </AccordionContent>
                   </AccordionItem>
                 ))}
               </Accordion>

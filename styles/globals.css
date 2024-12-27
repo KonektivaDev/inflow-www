@@ -11,65 +11,65 @@
     /* CSS: .bg-gradient { background: var(--gradient) } */
     --gradient: linear-gradient(to top left, #007adf, #00ecbc);
 
-    --background: 220 65% 10%;
-    --foreground: 220 10% 97.2%;
-
-    --muted: 220 50% 13.2%;
-    --muted-foreground: 220 10% 54.4%;
-
-    --popover: 220 45% 5.72%;
-    --popover-foreground: 220 10% 97.2%;
-
-    --card: 220 45% 5.72%;
-    --card-foreground: 220 10% 97.2%;
-
-    --border: 220 50% 13.2%;
-    --input: 220 50% 13.2%;
-
-    --primary: 220 100% 44%;
-    --primary-foreground: 220 10% 97.2%;
-
-    --secondary: 220 50% 13.2%;
-    --secondary-foreground: 220 10% 97.2%;
-
-    --accent: 220 50% 13.2%;
-    --accent-foreground: 220 10% 97.2%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 220 10% 97.2%;
-
-    --ring: 220 100% 44%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
     --background: 216 100% 98.04%;
     --foreground: 213.6 100% 4.9%;
 
-    --primary: 214.12 100% 50%;
-    --primary-foreground: 0 0% 100%;
-
-    --card: 216 100% 98.04%;
-    --card-foreground: 213.6 100% 4.9%;
+    --muted: 213.6 100% 95.1%;
+    --muted-foreground: 215 20.2% 45.1%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 213.6 100% 4.9%;
 
+    --card: 0 0% 100%;
+    --card-foreground: 213.6 100% 4.9%;
+
+    --border: 214.74 100% 92.55%;
+    --input: 214.74 100% 92.55%;
+
+    --primary: 214.12 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
     --secondary: 214.74 100% 92.55%;
     --secondary-foreground: 216 100% 0.98%;
 
-    --muted: 213.6 100% 95.1%;
-    --muted-foreground: 0 0% 40%;
-
-    --accent: 213.6 100% 95.1%;
+    --accent: 214.74 100% 92.55%;
     --accent-foreground: 214.12 100% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 90.2%;
-    --input: 0 0% 90.2%;
+    --ring: 214.12 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 213.6 100% 4.9%;
+    --foreground: 216 100% 98.04%;
+
+    --primary: 214.12 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --card: 213.6 100% 4.9%;
+    --card-foreground: 216 100% 98.04%;
+
+    --popover: 213.6 100% 4.9%;
+    --popover-foreground: 216 100% 98.04%;
+
+    --secondary: 216 100% 4.9%;
+    --secondary-foreground: 214.74 100% 92.55%;
+
+    --muted: 213.6 100% 8%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 216 100% 8%;
+    --accent-foreground: 214.74 100% 92.55%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 216 100% 15%;
+    --input: 216 100% 15%;
     --ring: 214.12 100% 50%;
 
     --radius: 0.5rem;
@@ -99,7 +99,10 @@
 }
 
 .dotPattern {
-  background-image: radial-gradient(rgb(35, 40, 68) 1px, transparent 1px);
+  background-image: radial-gradient(
+    hsl(var(--muted-foreground)) 1px,
+    transparent 1px
+  );
   background-size: 25px 25px;
 }
 
@@ -110,7 +113,7 @@
 .card-mask {
   background: radial-gradient(
     ellipse at center,
-    rgba(0, 75, 224, 0.15),
+    hsl(var(--primary) / 0.15),
     transparent
   );
 }
@@ -118,12 +121,12 @@
 .gradient {
   background: conic-gradient(
     from 230.29deg at 51.63% 52.16%,
-    rgb(36, 0, 255) 0deg,
-    rgb(0, 135, 255) 67.5deg,
-    rgb(108, 39, 157) 198.75deg,
-    rgb(24, 38, 163) 251.25deg,
-    rgb(54, 103, 196) 301.88deg,
-    rgb(105, 30, 255) 360deg
+    hsl(var(--primary)) 0deg,
+    hsl(214.12 100% 50%) 67.5deg,
+    hsl(270 57% 38%) 198.75deg,
+    hsl(230 75% 37%) 251.25deg,
+    hsl(217 48% 49%) 301.88deg,
+    hsl(255 100% 56%) 360deg
   );
 }
 

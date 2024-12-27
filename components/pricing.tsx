@@ -22,20 +22,22 @@ const Pricing = () => {
         <div className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-blue-500 rounded-full blur-[10rem] -z-10" />
 
         <Container>
-          <div className="max-w-md mx-auto text-start md:text-center">
+          <div className="max-w-3xl mx-auto text-start md:text-center">
             <SectionBadge title="Cennink" />
             <h2 className="text-3xl lg:text-4xl 2xl:text-4xl mt-6 font-semibold">
-              Find the right pricing plan for your business
+              Wybierz optymalny pakiet dla Twojej organizacji
             </h2>
             <p className="text-muted-foreground mt-6">
-              Choose the best plan for your business and start engaging with
-              your customers today!
+              InFlow to przełomowy krok do łatwiejszego zarządzanie finansami
+              projektów i usprawnienie ekosystemu funkcjonowania całej
+              organizacji. To system, który automatyzuje procesy, po to byś Ty
+              mógł się skupić na rozwoju swojego projektu i organizacji.
             </p>
           </div>
         </Container>
 
         <Container className="flex items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
             {pricingCards.map((card) => (
               <Card
                 key={card.title}

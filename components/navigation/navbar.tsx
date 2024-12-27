@@ -15,19 +15,25 @@ const Navbar = () => {
         <nav className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
           <ul className="flex items-center justify-center gap-8">
             <li className="hover:text-foreground/80 text-sm">
-              <Link href={"#how-it-works"}>Jak działamy</Link>
+              <Link href={"/#about-inflow"}>O InFlow</Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href={"#features"}>Funkcje</Link>
+              <Link href={"/#features"}>Funkcje</Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href={"#pricing"}>Cennik</Link>
+              <Link href={"/#pricing"}>Cennik</Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
+              <Link href={"/moduly"}>Moduły</Link>
+            </li>
+            {/* <li className="hover:text-foreground/80 text-sm">
               <Link href={"#testimonials"}>Opinie</Link>
+            </li> */}
+            <li className="hover:text-foreground/80 text-sm">
+              <Link href={"/faq"}>FAQ</Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href={"#faq"}>FAQ</Link>
+              <Link href={"/o-nas"}>O nas</Link>
             </li>
           </ul>
         </nav>

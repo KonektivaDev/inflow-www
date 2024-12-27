@@ -28,7 +28,7 @@ const Footer = () => {
               } md:grid md:grid-cols-2 md:gap-8`}
             >
               <div className="">
-                <h3 className="text-base font-medium text-white">
+                <h3 className="text-base font-medium text-foreground">
                   {section.title}
                 </h3>
 
