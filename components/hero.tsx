@@ -6,6 +6,9 @@ import Image from "next/image";
 import Wrapper from "./global/wrapper";
 import Container from "./global/container";
 import SectionBadge from "./ui/section-badge";
+import Link from "next/link";
+import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -17,15 +20,33 @@ const Hero = () => {
           <SectionBadge title="Przedstawiamy InFlow" />
           <div className="flex flex-col items-center mt-8 max-w-4xl w-11/12 md:w-full">
             <h1 className="text-3xl md:text-4xl lg:text-4xl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-950 to-gray-800 dark:from-gray-50 dark:to-gray-400 text-transparent">
-              InFlow - kompleksowy system do zarządzania finansami i dokumentami
-              projektów i organizacji.
+              InFlow to system do zarządzania finansami i dokumentami projektów
+              oraz organizacji.
             </h1>
-            <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
+            <p className="text-sm md:text-lg font-medium text-foreground mt-6 text-center">
               To system typu All in One. To prosta w obsłudze, a zarazem
               zaawansowana dygitalizacja.
               <br />
               InFlow to prawdziwy gamechanger dla Twojego NGO.
             </p>
+            <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
+              <Link
+                href="#pricing"
+                className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
+              >
+                <p className="text-foreground text-sm text-center md:text-lg font-medium pl-4 pr-4 lg:pr-0">
+                  InFlow już wkrótce dostępny w formie subskrypcji ze stałą
+                  miesięczną opłatą.
+                </p>
+                <Button
+                  size="sm"
+                  className="rounded-full hidden lg:flex border border-foreground/20"
+                >
+                  Szczegóły
+                  <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </Link>
+            </div>
             {/* <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
               <Link
                 href="#pricing"
