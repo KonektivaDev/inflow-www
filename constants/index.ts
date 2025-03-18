@@ -80,7 +80,7 @@ export const abouts = [
   {
     icon: Icons.monitor,
     title: "Integracje",
-    info: "InFlow integruje się z zewnętrznymi źródłami, takimi jak GUS, czy NBP skąd automatycznie pobiera potrzebne dane, co eliminuje konieczność ręcznego wprowadzania danych, zwiększając efektywność operacyjną organizacji. System przygotowuje również dokumenty do dalszej pracy w programie księgowym, integruje się też ze skrzynka mailową, na którą spływają faktury oraz będzie zintegrowany z KSeF.",
+    info: "InFlow integruje się z zewnętrznymi źródłami, takimi jak GUS, czy NBP skąd automatycznie pobiera potrzebne dane, co eliminuje konieczność ręcznego wprowadzania danych. System przygotowuje również dokumenty do dalszej pracy w programie księgowym, integruje się też ze skrzynka mailową, na którą spływają faktury oraz będzie zintegrowany z KSeF.",
   },
   {
     icon: Icons.customize,
@@ -136,8 +136,8 @@ export const pricingCards = [
   {
     title: "Mikro",
     description:
-      "Idealny dla małych organizacji, oferujący dostęp do systemu dla 5 użytkowników.",
-    price: "500 PLN/msc",
+      "Idealny pakiet dla małych organizacji, oferujący dostęp do systemu dla maksymalnie 5 użytkowników.",
+    price: "500 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
     buttonText: "Skontaktuj się z nami aby zamówić",
@@ -145,15 +145,15 @@ export const pricingCards = [
       "5 aktywnych użytkowników",
       "30 dni bezpłatnego testowania",
       "Dostęp do wszystkich modułów",
-      "Wsparcie techniczne",
+      "Wsparcie techniczne i wdrożeniowe",
     ],
     priceId: "",
   },
   {
     title: "Meso",
     description:
-      "Stworzony z myślą o średnich organizacjach, oferujący dostęp do systemu dla 15 użytkowników.",
-    price: "1500 PLN/msc",
+      "Stworzony z myślą o średnich organizacjach, oferujący dostęp do systemu dla 15 maksymalnie użytkowników.",
+    price: "1500 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
     buttonText: "Skontaktuj się z nami aby zamówić",
@@ -161,7 +161,7 @@ export const pricingCards = [
       "15 aktywnych użytkowników",
       "30 dni bezpłatnego testowania",
       "Dostęp do wszystkich modułów",
-      "Wsparcie techniczne",
+      "Wsparcie techniczne i wdrożeniowe",
     ],
     priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
   },
@@ -169,15 +169,15 @@ export const pricingCards = [
     title: "Maxi",
     description:
       "Doskonały wybór dla dużych organizacji, umożliwiający dostęp do systemu dla nielimitowanej liczby użytkowników.",
-    price: "3000 PLN/msc",
+    price: "3000 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
     buttonText: "Skontaktuj się z nami aby zamówić",
     features: [
-      "nielimitowana liczba aktywnych użytkowników",
+      "Nielimitowana liczba użytkowników",
       "30 dni bezpłatnego testowania",
       "Dostęp do wszystkich modułów",
-      "Wsparcie techniczne",
+      "Wsparcie techniczne i wdrożeniowe",
     ],
     priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
   },
@@ -245,20 +245,26 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Product",
-    links: ["Features", "Pricing", "Testimonials", "Integration"],
+    title: "Produkt",
+    links: [
+      { title: "Funkcje", href: "/inflow#features" },
+      { title: "Cennik", href: "/inflow#pricing" },
+      { title: "Moduły", href: "/inflow/moduly" },
+    ],
   },
   {
-    title: "Integrations",
-    links: ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+    title: "Strony",
+    links: [
+      { title: "Facebook", href: "https://www.facebook.com/inflow.pl" },
+      { title: "LinkedIn", href: "https://www.linkedin.com/company/inflow-pl" },
+    ],
   },
   {
-    title: "Resources",
-    links: ["Blog", "Case Studies", "Support"],
-  },
-  {
-    title: "Company",
-    links: ["About Us", "Privacy Policy", "Terms & Conditions"],
+    title: "Konektiva",
+    links: [
+      { title: "O nas", href: "/inflow/o-nas" },
+      { title: "Kontakt", href: "/inflow/kontakt" },
+    ],
   },
 ];
 

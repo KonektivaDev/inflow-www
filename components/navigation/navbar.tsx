@@ -35,6 +35,9 @@ const Navbar = () => {
             <li className="hover:text-foreground/80 text-sm">
               <Link href={"/inflow/o-nas"}>O nas</Link>
             </li>
+            <li className="hover:text-foreground/80 text-sm">
+              <Link href={"/inflow/kontakt"}>Kontakt</Link>
+            </li>
           </ul>
         </nav>
       </div>

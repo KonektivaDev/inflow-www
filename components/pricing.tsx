@@ -42,7 +42,7 @@ const Pricing = () => {
               <Card
                 key={card.title}
                 className={cn(
-                  "flex flex-col w-full border-neutral-700",
+                  "flex flex-col w-full border-neutral-700 border-2 border-primary",
                   card.title === "Meso" && "border-2 border-primary"
                 )}
               >
@@ -64,19 +64,24 @@ const Pricing = () => {
 
                 <CardContent className="pt-6 space-y-3">
                   {card.features.map((feature) => (
-                    <div className="flex items-center gap-2" key={feature}>
-                      <Zap name="h-4 w-4 fill-primary text-primary" />
-                      <p className="">{feature}</p>
+                    <div
+                      className="grid grid-cols-12 items-center gap-4"
+                      key={feature}
+                    >
+                      <Zap
+                        className="col-span-2"
+                        name="h-4 w-4 fill-primary text-primary"
+                      />
+                      <p className="col-span-10">{feature}</p>
                     </div>
                   ))}
                 </CardContent>
 
                 <CardFooter className="mt-auto">
                   <Link
-                    href={"#"}
+                    href="/inflow/kontakt"
                     className={cn(
-                      "w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium",
-                      card.title !== "Meso" && "!bg-foreground !text-background"
+                      "w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium"
                     )}
                   >
                     {card.buttonText}

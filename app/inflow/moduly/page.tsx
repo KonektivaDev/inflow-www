@@ -16,8 +16,10 @@ export default function InFlowModules() {
           <SectionBadge title="Moduły" />
 
           <h2 className="text-3xl lg:text-4xl 2xl:text-4xl mt-6 font-semibold">
-            W skład systemu InFlow wchodzą:
+            W skład systemu InFlow wchodzą moduły ewidencyjne i raportowe.
           </h2>
+          <p className="text-xl mt-6">Zapoznaj się z ich opisem i funkcjami.</p>
+          <p>[ZDJĘCIE]</p>
           <h3 className="text-2xl lg:text-3xl 2xl:text-3xl mt-6 font-semibold">
             Moduły ewidencyjne:
           </h3>

@@ -26,7 +26,7 @@ export default function AboutUsPage() {
           </LampContainer>
         </Container>
 
-        <Container className="-mt-96">
+        <Container className="-mt-60">
           <p className="text-foreground mt-6 text-justify">
             Konektiva to firma technologiczna specjalizująca się w tworzeniu
             innowacyjnych rozwiązań IT dla organizacji pozarządowych. Jesteśmy

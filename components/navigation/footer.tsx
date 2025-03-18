@@ -36,10 +36,10 @@ const Footer = () => {
                   {section.links.map((link, index) => (
                     <li key={index} className={`${index > 0 ? "mt-2" : ""}`}>
                       <Link
-                        href={"#"}
+                        href={link.href}
                         className="hover:text-foreground transition-all duration-300 ease-in-out"
                       >
-                        {link}
+                        {link.title}
                       </Link>
                     </li>
                   ))}
