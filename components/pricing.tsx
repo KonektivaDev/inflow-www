@@ -23,7 +23,7 @@ const Pricing = () => {
 
         <Container>
           <div className="max-w-3xl mx-auto text-start md:text-center">
-            <SectionBadge title="Cennink" />
+            <SectionBadge title="Cennik" />
             <h2 className="text-3xl lg:text-4xl 2xl:text-4xl mt-6 font-semibold">
               Wybierz optymalny pakiet dla Twojej organizacji
             </h2>
