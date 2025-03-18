@@ -37,13 +37,13 @@ const Pricing = () => {
         </Container>
 
         <Container className="flex items-center justify-center">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
             {pricingCards.map((card) => (
               <Card
                 key={card.title}
                 className={cn(
                   "flex flex-col w-full border-neutral-700",
-                  card.title === "Pro" && "border-2 border-primary"
+                  card.title === "Meso" && "border-2 border-primary"
                 )}
               >
                 <CardHeader className="border-b border-border">
@@ -76,7 +76,7 @@ const Pricing = () => {
                     href={"#"}
                     className={cn(
                       "w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium",
-                      card.title !== "Pro" && "!bg-foreground !text-background"
+                      card.title !== "Meso" && "!bg-foreground !text-background"
                     )}
                   >
                     {card.buttonText}

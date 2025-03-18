@@ -24,16 +24,63 @@ export const forWho = [
   },
 ];
 
+export const modules = [
+  {
+    title: "Kontrahenci, Pracownicy",
+    info: "Te moduły stanowią kluczowy element systemu ewidencji kosztów, oferując zaawansowane narzędzie do zarządzania danymi podstawowymi takich podmiotów jak kontrahenci oraz pracownicy. Dzięki możliwości dodawania pracowników i kontrahentów wraz z ich szczegółowymi informacjami, moduły te znacząco usprawniają proces obsługi dokumentacji. Po zarejestrowaniu kontrahenta w systemie, jego dane są łatwo dostępne przy kolejnych transakcjach, co eliminuje potrzebę wielokrotnego wprowadzania tych samych informacji. Jedną z najważniejszych cech tych modułów jest ich integracja z GUS, co umożliwia automatyczne pobieranie danych bezpośrednio z tego rejestru, zapewniając tym samym oszczędność czasu i redukcję błędów związanych z ręcznym wprowadzaniem danych. Moduły te pełnią również funkcję ewidencyjną, tworząc centralne repozytorium informacji o pracownikach i kontrahentach co stanowi solidną podstawę dla efektywnego zarządzania zasobami ludzkimi i współpracą z zewnętrznymi dostawcami usług. ",
+  },
+  {
+    title: "Umowy",
+    info: "Moduł archiwizacji umów stanowi kluczowy element systemu zarządzania, dedykowany przechowywaniu oraz organizacji dokumentacji umownej z pracownikami i kontrahentami. Umożliwia on wprowadzenie oraz zarządzanie kluczowymi informacjami związanymi z umowami, takimi jak nazwa kontrahenta lub pracownika, rodzaj umowy, numer umowy, daty zawarcia i wygaśnięcia, kwota umowy, oraz szczegółowy opis. Dzięki funkcjonalności filtrowania, użytkownicy mogą łatwo wyszukiwać umowy, korzystając z różnorodnych kryteriów, jak na przykład nazwa pracownika/kontarhenta, typ umowy, lub daty zawarcia/wygaśnięcia. Takie podejście znacząco upraszcza proces odnajdywania konkretnych dokumentów, oszczędzając czas oraz zwiększając efektywność pracy. Oprócz archiwizacji, moduł ten wyposażony jest w funkcję zatwierdzania umów, co umożliwia nie tylko przechowywanie, ale także formalne akceptowanie dokumentacji w obrębie systemu. To zintegrowane środowisko do zarządzania umowami zapewnia kompleksowe wsparcie w zakresie dokumentacji umownej, ułatwiając zarządzanie i kontrolę nad obiegiem dokumentów w organizacji. Jest to nieoceniona funkcja dla organizacji pragnących utrzymać porządek oraz efektywnie zarządzać swoimi zobowiązaniami umownymi. ",
+  },
+  {
+    title: "Projekty",
+    info: "Moduł Projekty reprezentuje integralną część systemu zarządzania, dedykowaną efektywnemu administrowaniu projektami, monitorowaniu wydatków oraz nadzorowaniu realizacji budżetów w fundacji. Uruchomienie modułu ujawnia listę wszystkich projektów prowadzonych przez fundację, zawierającą kluczowe informacje takie jak kod projektu, nazwa, operator, koordynator oraz zakres dat realizacji. Dla każdego projektu zapewniony jest przycisk „zarządzaj”, który umożliwia dostęp do szczegółowych danych dotyczących danego przedsięwzięcia. W ramach tych informacji znajdują się między innymi skany umów, informacje o przelewach, zapisy odnoszące się do procedury wydatkowania środków, które są niezbędne na dokumencie księgowym, oraz terminy realizacji wydatków. Kluczową funkcjonalnością modułu jest przycisk „kosztorys”, który przenosi użytkownika do szczegółowej analizy budżetu projektu. Budżet ten jest szczegółowo rozpisany, prezentując nazwy poszczególnych działań lub kategorii budżetowych, linii budżetowych, a także kwoty przypisane do każdego działania, zarówno te zgodne z umową, jak i aktualne wydatki. Użytkownik może również przejrzeć aktualny procent realizacji wydatków dla każdej linii, weryfikować ewentualne przekroczenia budżetowe, obserwować kwoty już wydatkowane oraz dostępne środki. System pozwala na łatwe odróżnienie kosztów programowych od administracyjnych, zapewniając klarowny podział i ułatwiając zarządzanie finansami projektu. Dodatkowo, moduł ten umożliwia eksportowanie dokumentów przypisanych do wybranej kategorii wydatków. Po zaznaczeniu określonej kategorii, użytkownik otrzymuje dostęp do rozwijanej listy dokumentów znajdujących się pod budżetem, wraz ze szczegółowymi informacjami o każdym z nich. Funkcjonalność ta jest rozszerzona o przycisk „włącz”, który pozwala na otwieranie każdego dokumentu w nowej karcie przeglądarki, zapewniając łatwy dostęp i możliwość szczegółowego przeglądu dokumentacji bez konieczności opuszczania interfejsu modułu. To rozwiązanie znacząco ułatwia zarządzanie dokumentacją i optymalizuje proces przeglądania oraz analizy wydatków. Dzięki kompleksowej funkcjonalności, moduł projekty stanowi niezastąpione narzędzie dla organizacji, umożliwiając nie tylko szczegółową kontrolę nad każdym aspektem finansowym projektów, ale również sprawną komunikację między zespołami odpowiedzialnymi za ich realizację. Zapewnia to nie tylko efektywność w zarządzaniu budżetami, ale także pozwala na skuteczną optymalizację wydatków i maksymalizację wartości generowanej przez projekty. ",
+  },
+  {
+    title: "Dokumenty kosztowe",
+    info: "Moduł kosztowy stanowi zaawansowane narzędzie do zarządzania i rejestrowania wszystkich kosztów oraz dokumentacji księgowej w ramach działalności fundacji. Funkcja ta umożliwia przesyłanie dokumentów księgowych związanych z kosztami przez pracowników lub kontrahentów bezpośrednio na dedykowany adres email lub wprowadzić dokument odręcznie zalecając dołączenie informacji takich jak: przypisany projekt, szczegółowe działanie, linia budżetowa oraz opis, o ile jest to możliwe. W przypadku gdy dokumenty trafiają na skrzynkę mailową system automatycznie importuje otrzymane dokumenty do wirtualnego sekretariatu, gdzie następuje ich wstępna obróbka. Obejmuje ona wprowadzenie podstawowych danych dokumentu, takich jak: nazwa wystawcy, numer dokumentu, rodzaj oraz daty. Dzięki integracji z usługą OCR, większość tych informacji jest uzupełniana automatycznie. Następnie dokument jest przekazywany do koordynatora merytorycznego, który odpowiada za przygotowanie dekretu, czyli wybór odpowiedniego projektu, działania, linii budżetowej, dodanie opisu dokumentu oraz, w razie potrzeby, kursu wymiany walut. Koordynator ten również dokonuje merytorycznej weryfikacji i zatwierdzenia dokumentu. W kolejnym etapie dokument podlega weryfikacji przez koordynatora formalnego, który ocenia dokument pod kątem formalno-rachunkowym. Po pozytywnej weryfikacji, dokument trafia do koordynatora finansowego. Ten ostatni przeprowadza kompleksową analizę dokumentu, sprawdzając jego poprawność, kwalifikowalność kosztów, przypisanie oraz opis, i decyduje o zatwierdzeniu do wypłaty lub księgowania. Dokumenty, po zatwierdzeniu, są kierowane do księgowości, gdzie otrzymują numer księgowy i są archiwizowane, lub przechodzą do zakładki płatności, oczekując na realizację jako przelew bankowy. Po dokonaniu płatności, pracownik administracyjny dodaje potwierdzenie płatności i dokumentacja jest przekazywana z powrotem do księgowości. Moduł kosztowy oferuje nie tylko praktyczne przechowywanie dokumentacji księgowo-kosztowej w sposób uporządkowany, jak w wirtualnym segregatorze, ale także ułatwia jej ewidencjonowanie i wyszukiwanie dzięki rozbudowanym opcjom filtracji, takim jak: projekt, wystawca, data wystawienia czy płatność itp., zapewniając tym samym wydajne zarządzanie finansami w fundacji. ",
+  },
+  {
+    title: "Dokumenty przychodowe",
+    info: "en moduł umożliwia efektywne zarządzanie dokumentacją przychodową organizacji, która jest bezpośrednio związana z prowadzeniem działalności gospodarczej. Zapewnia on sprawny proces przechowywania oraz dostęp do dokumentów, co przyczynia się do usprawnienia operacji biznesowych i zwiększenia efektywności organizacyjnej. ",
+  },
+  {
+    title: "Zakupy",
+    info: "Moduł zakupowy umożliwia zapoczątkowanie, wdrożenie i zakończenie procesu zakupowego w formie elektronicznej. Pozwala na realizację zgłoszenia zakupu z podziałem na poszczególne kategorie, miejsce docelowe, projekt, działanie i linię budżetową i oznaczenie odpowiednich osób zaangażowanych w akceptację z działu programowego, finansowego i zakupowego. Po otrzymaniu wniosku o zakup (PR) nadawany jest typ procedury: uproszczony (wymagana jest 1 oferta) bądź ofertowy (wymagane są 3 oferty). W trybie konkursowym system informuje, że należy dołączyć do dokumentacji także analizę ofert komitetu zakupowego. Po uzupełnieniu ofert, analizy  i akceptacji wniosku o zakup, można wygenerować w systemie wniosek zamówienia (PO) z odpowiednimi kategoriami, miejscami dostawy i oznaczeniem osób zatwierdzających Suma wydatku w PO nie może się różnić więcej niż 10% w stosunku do PR. Kolejnym krokiem jest zatwierdzenie PO, wysłanie faktury do płatności, pod linkowanie faktury oraz dołączenie wymaganych dokumentów potwierdzających dokonanie zakupu towaru – protokół odbioru  towaru (GRN) bądź protokół odbioru usługi. W momencie załączenia całej dokumentacji można zakończyć proces zakupowy. System nadaje numerację PR, PO, umożliwia akceptację dokumentów, pozwala na wygenerowanie całej dokumentacji w formacie pdf, a co najważniejsze systematyzuje i synchronizuje pracę osób z kilku działów. ",
+  },
+];
+
+export const reports = [
+  {
+    title: "Raport: Dekrety",
+    info: "Raport Dekrety to kluczowe narzędzie systemu, zaprojektowane z myślą o usprawnieniu procesu wyszukiwania i zarządzania dekretami księgowymi w ramach określonych projektów. Jego funkcjonalność opiera się na możliwości korzystania z rozbudowanych opcji filtracji, umożliwiających użytkownikom precyzyjne określenie kryteriów wyszukiwania, takich jak kod projektu, szczegółowe działanie, linia budżetowa, rodzaj dokumentu, data wystawienia, i wiele innych. Dzięki temu można szybko i efektywnie lokalizować konkretną dokumentację. Po zdefiniowaniu i zastosowaniu odpowiednich filtrów, system prezentuje wyniki w postaci przejrzystej tabeli, zawierającej wyselekcjonowane dokumenty.  W tabeli prezentowane są również wszystkie kluczowe dane dotyczące każdego dokumentu, co obejmuje rodzaj dokumentu, numer dokumentu, numer księgowy, nazwę wystawcy, kwotę brutto, kwotę netto, datę wystawienia i inne. Dzięki takiemu uporządkowaniu informacji, moduł dekrety znacząco ułatwia zarządzanie dokumentacją księgową, pozwalając na szybkie odnalezienie i przegląd potrzebnych dokumentów, co przyczynia się do większej efektywności pracy oraz lepszego zarządzania projektami i ich budżetami. ",
+  },
+  {
+    title: "Raport: Personel",
+    info: "Moduł ten jest nieocenionym narzędziem w procesie zarządzania wynagrodzeniami personelu, oferując kompleksowe podsumowanie umów, faktur oraz rachunków przypisanych do każdego pracownika. Funkcjonalność modułu pozwala na dokładne wyszczególnienie wynagrodzeń za poszczególne miesiące, z możliwością rozdzielenia płatności według konkretnych projektów, na których pracownik był zaangażowany. Ta szczegółowa segregacja umożliwia precyzyjne śledzenie i analizę kosztów pracy, ułatwiając zarządzanie budżetem przeznaczonym na wynagrodzenia i umożliwiając efektywniejsze alokowanie zasobów na przyszłe projekty. ",
+  },
+  {
+    title: "Raport: Koszty administracyjne",
+    info: "Ten moduł oferuje kompleksową kontrolę nad wydatkami administracyjnymi fundacji, umożliwiając precyzyjne kategoryzowanie kosztów w zależności od ich typu, takich jak najem, media, materiały biurowe, czy wydruki, oraz lokalizacji. Funkcja ta umożliwia użytkownikom śledzenie miesięcznych wydatków poszczególnych kategorii w określonych lokalizacjach, agregowanie danych, a także eksportowanie dokumentów z danego okresu według typu kosztów. Dzięki temu modułowi, organizacja może efektywniej planować budżety na nowe projekty, precyzyjnie określając kwoty przeznaczone na poszczególne kategorie wydatków, co znacząco ułatwia zarządzanie finansami i optymalizację kosztów działania. ",
+  },
+];
+
 export const abouts = [
   {
-    icon: Icons.monitor,
+    icon: Icons.palette,
     title: "All in One",
     info: "InFlow to system typu All in One, w którym z dowolnego miejsca, w którym jesteś, masz dostęp do wszystkich dokumentów projektu i organizacji. InFlow składa się z modułów obejmujących kluczowe obszary działania NGO: od kontrahentów i pracowników, po umowy, projekty oraz dokumenty kosztowe i przychodowe oraz koszty administracyjne.",
   },
   {
     icon: Icons.launch,
     title: "Automatyzacja",
-    info: "Dzięki automatyzacji InFlow eliminuje konieczność ręcznego wprowadzania danych, zwiększając efektywność operacyjną organizacji. InFlow integruje się z zewnętrznymi źródłami, takimi jak GUS, skąd automatycznie pobiera dane oraz przygotowuje dokumenty do pracy w programie księgowym, co ułatwia i przyspiesza zarządzanie.",
+    info: "InFlow to automatyzacja czasochłonnych procesów zatwierdzania dokumentów od etapu pojawienia się ich w skrzynce mailowej, przez zatwierdzanie merytoryczne, formalne, płatności, dekretacje, księgowość i archiwizację. Dzięki InFlow dokumenty w Twojej organizacji nigdy więcej nie będą wędrowały z biurka na biurko, czy z maila na maila.",
+  },
+  {
+    icon: Icons.monitor,
+    title: "Integracje",
+    info: "InFlow integruje się z zewnętrznymi źródłami, takimi jak GUS, czy NBP skąd automatycznie pobiera potrzebne dane, co eliminuje konieczność ręcznego wprowadzania danych, zwiększając efektywność operacyjną organizacji. System przygotowuje również dokumenty do dalszej pracy w programie księgowym, integruje się też ze skrzynka mailową, na którą spływają faktury oraz będzie zintegrowany z KSeF.",
   },
   {
     icon: Icons.customize,
@@ -87,34 +134,50 @@ export const features = [
 
 export const pricingCards = [
   {
-    title: "Starter",
+    title: "Mikro",
     description:
-      "Perfect for small teams just getting started with AI-powered support.",
-    price: "Free",
-    duration: "",
+      "Idealny dla małych organizacji, oferujący dostęp do systemu dla 5 użytkowników.",
+    price: "500 PLN/msc",
+    duration: "miesiąc",
     highlight: "Key features",
-    buttonText: "Get Started for Free",
+    buttonText: "Skontaktuj się z nami aby zamówić",
     features: [
-      "Shared inbox",
-      "Basic reporting",
-      "1 Team member",
-      "Email support",
+      "5 aktywnych użytkowników",
+      "30 dni bezpłatnego testowania",
+      "Dostęp do wszystkich modułów",
+      "Wsparcie techniczne",
     ],
     priceId: "",
   },
   {
-    title: "Pro",
+    title: "Meso",
     description:
-      "Ideal for growing teams needing advanced tools for customer support.",
-    price: "$199",
-    duration: "month",
+      "Stworzony z myślą o średnich organizacjach, oferujący dostęp do systemu dla 15 użytkowników.",
+    price: "1500 PLN/msc",
+    duration: "miesiąc",
     highlight: "Key features",
-    buttonText: "Upgrade to Pro",
+    buttonText: "Skontaktuj się z nami aby zamówić",
     features: [
-      "Shared inbox",
-      "5 Team members",
-      "AI-powered responses",
-      "Advanced reporting",
+      "15 aktywnych użytkowników",
+      "30 dni bezpłatnego testowania",
+      "Dostęp do wszystkich modułów",
+      "Wsparcie techniczne",
+    ],
+    priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
+  },
+  {
+    title: "Maxi",
+    description:
+      "Doskonały wybór dla dużych organizacji, umożliwiający dostęp do systemu dla nielimitowanej liczby użytkowników.",
+    price: "3000 PLN/msc",
+    duration: "miesiąc",
+    highlight: "Key features",
+    buttonText: "Skontaktuj się z nami aby zamówić",
+    features: [
+      "nielimitowana liczba aktywnych użytkowników",
+      "30 dni bezpłatnego testowania",
+      "Dostęp do wszystkich modułów",
+      "Wsparcie techniczne",
     ],
     priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
   },
@@ -345,19 +408,6 @@ export const faqItems = [
     bullets: [],
   },
   {
-    question: "Czy mogę przetestować InFlow przed jego zakupem?",
-    answer:
-      "Tak, oferujemy 30-dniowy okres próbny, podczas którego możesz przetestować wszystkie funkcjonalności systemu InFlow. Jeśli system nie spełni Twoich oczekiwań, możesz zrezygnować z subskrypcji bez żadnych kosztów.",
-    bullets: [],
-  },
-  {
-    question:
-      "Czy księgowość lub biuro rachunkowe będzie chciało korzystać z InFlow?",
-    answer:
-      "Tak, dla księgowości i biura rachunkowego InFlow jest bardzo pomocnym narzędziem, które usprawnia i automatyzuje wiele aspektów zarządzania finansami. System zapewnia przejrzystość i łatwy dostęp do dokumentacji, oraz jako jedyny na rynku przygotowuje dokumenty do dalszej pracy na popularnym programie księgowym…………..i , a jest integrowanie z innymi systemami m.in. GUS a w przyszłości KSeF, co znacząco ułatwia pracę księgowej.",
-    bullets: [],
-  },
-  {
     question: "Jak przekonać zespół do korzystania z InFlow?",
     answer:
       "Aby przekonać zespół do korzystania z InFlow, warto zaprezentować mu korzyści, jakie niesie ze sobą system. Pokaż, jak InFlow ułatwia codzienną pracę, automatyzując czasochłonne procesy i eliminując błędy związane z ręcznym wprowadzaniem danych. Dostarczenie wsparcia merytorycznego i technicznego w początkowym etapie użytkowania również pomoże budować zaufanie i zachęcać do korzystania z systemu.",
@@ -410,12 +460,6 @@ export const faqItems = [
     bullets: [],
   },
   {
-    question: "Co jeśli nie wiem, na który pakiet subskrypcji się zdecydować?",
-    answer:
-      "Skontaktuj się z nami! Chętnie pomożemy dobrać pakiet idealny do potrzeb Twojej organizacji, aby zapewnić Ci maksymalne korzyści z korzystania z InFlow.",
-    bullets: [],
-  },
-  {
     question:
       "Co jeśli chciałbym rozszerzyć InFlow o nowe funkcjonalności lub dostosować go do bardzo specyficznych potrzeb mojej organizacji?",
     answer:
@@ -455,13 +499,7 @@ export const faqItems = [
       "InFlow może zrewolucjonizować sposób, w jaki zarządzasz dokumentacją i finansami w swojej organizacji. Zamiast szukać zgubionych faktur w stosach papierów, InFlow centralizuje wszystkie dokumenty, a jego automatyzacja eliminuje błędy przy wprowadzaniu danych. Dzięki temu możesz skupić się na działaniach, które mają realny wpływ na Twoje projekty, a nie na rutynowych zadaniach.",
     bullets: [],
   },
-  {
-    question:
-      "Czy InFlow może pomóc w zwiększeniu zaangażowania mojego zespołu?",
-    answer:
-      "Absolutnie! InFlow to nie tylko narzędzie do zarządzania dokumentami, ale także duże ułatwienie dla współpracy i komunikacji w zespole. Dzięki łatwemu dostępowi do dokumentów i możliwości dzielenia się nimi w czasie rzeczywistym, zaangażowanie zespołu wzrasta, współpraca staje się płynniejsza, a zespół koordynatorski lepiej zgrany z zespołem administracyjno-fnansowym. Twoi pracownicy poczują się bardziej zintegrowani i zmotywowani do pracy nad wspólnymi celami.",
-    bullets: [],
-  },
+
   {
     question: "Jakie korzyści przynosi korzystanie z InFlow dla środowiska?",
     answer:

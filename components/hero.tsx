@@ -1,7 +1,4 @@
 import React from "react";
-// import { Button } from "./ui/button";
-// import { ArrowRight } from "lucide-react";
-// import Link from "next/link";
 import Image from "next/image";
 import Wrapper from "./global/wrapper";
 import Container from "./global/container";
@@ -47,23 +44,6 @@ const Hero = () => {
                 </Button>
               </Link>
             </div>
-            {/* <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
-              <Link
-                href="#pricing"
-                className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
-              >
-                <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                  ✨ {"  "}Sprawdź i wybierz pakiet dla swojej organizacji
-                </p>
-                <Button
-                  size="sm"
-                  className="rounded-full hidden lg:flex border border-foreground/20"
-                >
-                  Zacznij teraz
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </Button>
-              </Link>
-            </div> */}
           </div>
 
           <div className="relative flex items-center py-10 md:py-20 w-full">

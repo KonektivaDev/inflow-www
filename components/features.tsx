@@ -50,7 +50,8 @@ const Features = () => {
                 <div className="grid grid-cols-12 items-center gap-2">
                   <Zap className="h-5 w-5 text-blue-700 fill-blue-300" />
                   <p className="col-span-11">
-                    To system, który zastępuje dokumentację papierową.
+                    To dygitalny obieg dokumentów, który zastępuje dokumentację
+                    papierową
                   </p>
                 </div>
                 <div className="grid grid-cols-12 items-center gap-2">
@@ -102,6 +103,13 @@ const Features = () => {
                     papierowej.
                   </p>
                 </div>
+                <div className="grid grid-cols-12 items-center gap-2">
+                  <Zap className="h-5 w-5 text-blue-700 fill-blue-300" />
+                  <p className="col-span-11">
+                    To nie tylko program do rozliczania projektów, to również
+                    digitalny obieg dokumentów całej organizacji
+                  </p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -116,7 +124,7 @@ const Features = () => {
           </div>
           <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
             <Link
-              href="/moduly"
+              href="/inflow/moduly"
               className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
             >
               <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">

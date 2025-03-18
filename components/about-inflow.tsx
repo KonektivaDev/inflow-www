@@ -27,8 +27,8 @@ const AboutInFlow = () => {
         </Container>
 
         <Container>
-          <div className="flex flex-col items-center justify-center py-10 md:py-20 w-full">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 lg:gap-8">
+          <div className="flex flex-col items-center justify-center py-10 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 lg:gap-2">
               {abouts?.map((about) => (
                 <div
                   className="flex flex-col items-start px-4 md:px-6 lg:px-8 py-4 lg:py-8"
@@ -38,7 +38,7 @@ const AboutInFlow = () => {
                     <about.icon className="w-8 h-8 text-foreground/80 stroke-foreground/80 fill-foreground/80" />
                   </div>
                   <h3 className="text-lg font-medium mt-4">{about.title}</h3>
-                  <p className="text-muted-foreground mt-2 text-start lg:text-start">
+                  <p className="text-muted-foreground mt-2 text-justify">
                     {about.info}
                   </p>
                 </div>

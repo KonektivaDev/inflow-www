@@ -6,6 +6,9 @@ import Container from "@/components/global/container";
 import { LampContainer } from "@/components/ui/lamp";
 // import { Button } from "@/components/ui/button";
 // import Link from "next/link";
+// import { Input } from "@/components/ui/input";
+// import { Button } from "@/components/ui/button";
+// import Link from "next/link";
 // import { ArrowRight } from "lucide-react";
 // import { Input } from "@/components/ui/input";
 
@@ -14,23 +17,47 @@ export default function AboutUsPage() {
     <div id="newsletter">
       <Wrapper className="flex flex-col items-center justify-center py-2 relative">
         <Container>
-          <LampContainer className="-mt-64">
+          <LampContainer className="-mt-80">
             <div className="flex flex-col items-center justify-center relative w-full text-center">
-              <h2 className="text-3xl lg:text-4xl 2xl:text-4xl font-semibold">
-                O Nas
+              <h2 className="text-3xl lg:text-4xl 2xl:text-4xl font-semibold -mt-60">
+                Konektiva: Rozwiązania IT dla NGO
               </h2>
-              {/* <Button variant={"white"} className="mt-6" asChild>
-                <Link href={"#"}>
-                  Get started for free
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-              </Button> */}
             </div>
           </LampContainer>
         </Container>
 
-        <Container className="-mt-44">
-          <p className="text-foreground mt-6">
+        <Container className="-mt-96">
+          <p className="text-foreground mt-6 text-justify">
+            Konektiva to firma technologiczna specjalizująca się w tworzeniu
+            innowacyjnych rozwiązań IT dla organizacji pozarządowych. Jesteśmy
+            zespołem ekspertów, łączącym doświadczenie specjalistów IT z
+            praktyczną wiedzą o pracy w sektorze non-profit. To unikalne
+            połączenie pozwala nam tworzyć rozwiązania idealnie dopasowane do
+            specyfiki działalności NGO i uzupełniać istotną lukę rynkową w
+            zakresie dostępnych rozwiązań IT dla tego sektora.
+          </p>
+          <p className="text-foreground mt-6 text-justify">
+            W Konektiva rozumiemy, że sektor NGO charakteryzuje się ogromną
+            różnorodnością działań i struktur organizacyjnych. Dostępność
+            zaawansowanych rozwiązań informatycznych i digitalizacja jest
+            kluczowa dla efektywnego funkcjonowania organizacji. Jednak
+            oferowane na rynku produkty często nie są dopasowane do specyfiki
+            sektora non-profit. Konektiva odpowiada na to wyzwanie, oferując
+            kompleksowe systemy, które usprawnią procesy zarządzania w
+            organizacjach, zwiększają efektywność i przezroczystość działania.
+            Nasze rozwiązania są oparte na najnowszych technologiach i stale
+            udoskonalane w oparciu o współpracę z organizacjami z sektora NGO,
+            co gwarantuje ich doskonałe dopasowanie do potrzeb NGO.
+          </p>
+          <p className="text-foreground mt-6 text-justify">
+            W Konektiva dbamy nie tylko o dostarczanie nowoczesnych technologii,
+            ale i o pełne wsparcie w procesie wdrożenia i szkolenia
+            użytkowników. Opracowujemy też szyte na miarę rozwiązania
+            technologiczne tworzone na zamówienie poszczególnych NGO. Budujemy
+            długoterminowe relacje z naszymi klientami, oferując nieprzerwane
+            wsparcie i dostęp do nowych funkcjonalności
+          </p>
+          {/* <p className="text-foreground mt-6">
             Nazwa InFlow odnosi się do naturalnego przepływu wody, symbolizując
             dynamikę i lekkość. Takie podejście przekłada się na funkcje
             programu, które mają na celu ułatwienie zarządzania informacjami i
@@ -83,49 +110,8 @@ export default function AboutUsPage() {
           <p className="text-foreground mt-6">
             Dołącz do nas i odkryj, jak InFlow może zmienić Twoją organizację na
             lepsze!
-          </p>
+          </p> */}
         </Container>
-        {/* <Container className="relative z-[9999999]">
-          <div className="flex items-center justify-center w-full -mt-40">
-            <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
-              <div className="flex flex-col items-start gap-4 w-full">
-                <h2 className="text-xl lg:text-2xl 2xl:text-2xl mt-6 font-semibold">
-                  Join our Newsletter
-                </h2>
-                <p className="text-muted-foreground text-base">
-                  Be up to date on everything Nexa
-                </p>
-              </div>
-
-              <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
-                <form
-                  action="#"
-                  className="flex flex-col md:flex-row items-center gap-2 w-full md:max-w-xs"
-                >
-                  <Input
-                    required
-                    type="email"
-                    placeholder="Enter your email"
-                    className="focus-visible:ring-0 focus-visible:ring-transparent focus-visible:border-primary duration-300 w-full"
-                  />
-                  <Button
-                    type="submit"
-                    size="sm"
-                    variant="secondary"
-                    className="w-full md:w-max"
-                  >
-                    Subscribe
-                  </Button>
-                </form>
-
-                <p className="text-xs text-muted-foreground">
-                  By subscribing you agree with our{" "}
-                  <Link href="#">Privacy Policy</Link>
-                </p>
-              </div>
-            </div>
-          </div>
-        </Container> */}
       </Wrapper>
     </div>
   );
