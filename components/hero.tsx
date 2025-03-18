@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import Wrapper from "./global/wrapper";
 import Container from "./global/container";
 import SectionBadge from "./ui/section-badge";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import HeroVideoDialog from "./magicui/hero-video-dialog";
 
 const Hero = () => {
   return (
@@ -49,13 +49,11 @@ const Hero = () => {
           <div className="relative flex items-center py-10 md:py-20 w-full">
             <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
             <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
-              <Image
-                src="/assets/dashboard.svg"
-                alt="banner image"
-                width={1200}
-                height={1200}
-                quality={100}
-                className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
+              <HeroVideoDialog
+                animationStyle="top-in-bottom-out"
+                videoSrc="https://www.youtube.com/embed/Z9juoIO2F6Y"
+                thumbnailSrc="/assets/inflow-hero.png"
+                thumbnailAlt="InFlow - system do zarządzania finansami i dokumentami projektów oraz organizacji."
               />
             </div>
           </div>
