@@ -344,26 +344,6 @@ export const faqItems = [
     ],
   },
   {
-    question: "Jak wdrożyć InFlow w mojej organizacji?",
-    answer: "Wystarczy tylko kilka kroków, by zacząć korzystać z InFlow:",
-    bullets: [
-      {
-        title: "",
-        info: "Wejdź na stronę inflow.com.pl i wybierz odpowiedni pakiet.",
-      },
-      {
-        title: "",
-        info: "Wyznacz administratora InFlow w swojej organizacji.",
-      },
-      { title: "", info: "Przygotujemy InFlow dla Ciebie w ciągu 5 dni." },
-      { title: "", info: "Rozpocznij korzystanie z systemu i wsparcia." },
-      {
-        title: "",
-        info: "Skorzystaj z 30-dniowego okresu próbnego.",
-      },
-    ],
-  },
-  {
     question:
       "Czy muszę mieć zaawansowaną wiedzę technologiczna, aby korzystać z InFlow",
     answer:
@@ -380,18 +360,6 @@ export const faqItems = [
     question: "Co się dzieje po zakończeniu 30-dniowego okresu próbnego?",
     answer:
       "Po zakończeniu 30-dniowego okresu próbnego comiesięcznie będzie pobierana opłata za użytkowanie systemu InFlow, wskazana w Twoim pakiecie.",
-    bullets: [],
-  },
-  {
-    question: "Jak finansować subskrypcję systemu InFlow?",
-    answer:
-      "Subskrypcję systemu InFlow możesz finansować przede wszystkim z oszczędności, które wygeneruje jego użytkowanie. Korzystanie z InFlow znacząco zmniejszy nakłady na zakup materiałów biurowych i papierowych do tworzenia oraz przechowywania dokumentacji finansowej, takich jak papier, tonery, segregatory oraz regały do przechowywania. Dodatkowo, oszczędności wygenerowane na zakupach będą bardziej gospodarne, przejrzyste i pozwolą zredukować liczbę niepotrzebnie wydatkowanych środków w organizacji.",
-    bullets: [],
-  },
-  {
-    question: "Dla jakich organizacji przeznaczony jest InFlow?",
-    answer:
-      "InFlow sprawdzi się zarówno w małych, jak i dużych organizacjach pozarządowych. Oferujemy trzy różne pakiety operacyjne, które można dostosować do wielkości i potrzeb Twojej organizacji. Opisy poszczególnych pakietów znajdziesz w Cenniku/Pakietach.",
     bullets: [],
   },
   {
@@ -494,13 +462,6 @@ export const faqItems = [
     question: "Czy możliwe są zniżki na cenę systemu InFlow?",
     answer:
       "Tak, jeśli zdecydujesz się na subskrypcję roczną, otrzymasz 10% zniżki na cenę systemu InFlow.",
-    bullets: [],
-  },
-  {
-    question:
-      "Czy za subskrypcję muszę płacić co miesiąc? Czy mogę skorzystać z innego planu płatności?",
-    answer:
-      "Tak, InFlow oferuje elastyczność w zakresie płatności. Możemy dostosować plan płatności do Twoich możliwości finansowych – dostępne są opcje miesięczne, kwartalne, półroczne oraz roczne. Skontaktuj się z nami i wybierzemy dogodne dla Ciebie rozwiązanie.",
     bullets: [],
   },
   {
