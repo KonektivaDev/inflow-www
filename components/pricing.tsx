@@ -91,6 +91,99 @@ const Pricing = () => {
             ))}
           </div>
         </Container>
+
+        <Container className="pt-14">
+          <div className="max-w-3xl mx-auto text-start md:text-center">
+            <SectionBadge title="Jak to działa?" />
+            <h2 className="text-2xl lg:text-3xl 2xl:text-3xl mt-6 font-semibold">
+              Tylko kilka kroków dzieli Cię od tego, by InFlow działał w Twoim
+              NGO!
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 my-12">
+            <div className="flex flex-col items-center text-center">
+              <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold mb-4">
+                1
+              </div>
+              <h3 className="font-semibold mb-2 text-muted-foreground">
+                Wybierz odpowiedni pakiet
+              </h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold mb-4">
+                2
+              </div>
+              <h3 className="font-semibold mb-2 text-muted-foreground">
+                W ciągu 5 dni przygotujemy InFlow dla Twojej organizacji
+              </h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold mb-4">
+                3
+              </div>
+              <h3 className="font-semibold mb-2 text-muted-foreground">
+                Rozpocznij korzystanie z InFlow
+              </h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold mb-4">
+                4
+              </div>
+              <h3 className="font-semibold mb-2 text-muted-foreground">
+                Skorzystaj z 30-dniowego okresu próbnego i naszego wsparcia
+              </h3>
+            </div>
+          </div>
+
+          <div className="mt-16 space-y-10">
+            <div>
+              <h3 className="text-xl font-semibold mb-6">
+                Jak finansować subskrypcję systemu InFlow?
+              </h3>
+              <p className="mb-4">
+                Subskrypcję systemu InFlow możesz finansować przede wszystkim z
+                oszczędności, które wygeneruje jego użytkowanie:
+              </p>
+              <ul className="list-disc pl-6 space-y-3">
+                <li>
+                  Z InFlow zmniejszysz nakłady na zakup materiałów biurowych i
+                  papierowych potrzebnych do tworzenia oraz przechowywania
+                  dokumentacji finansowej, takich jak papier, tonery,
+                  segregatory oraz regały do przechowywania.
+                </li>
+                <li>
+                  InFlow pozwoli Ci zapanować nad wydatkami i zakupami w całej
+                  organizacji, dzięki niemu zredukujesz niepotrzebne lub
+                  nadmiarowe zakupy.
+                </li>
+                <li>
+                  Koniec z nadgodzinami lub dotrudnianiem dodatkowych osób do
+                  wsparcia w rozliczeniach, InFlow zastąpi dodatkowe ręce do
+                  pracy.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-6">
+                Czy mogę skorzystać z innego planu płatności?
+              </h3>
+              <p className="text-justify">
+                Tak, InFlow oferuje elastyczność w zakresie płatności. Optymalne
+                rozwiązanie to płatna co miesiąc subskrypcja: stały i
+                przewidywalny koszt. Doskonale znamy jednak potrzeby NGO i
+                wiemy, że czasami potrzebujecie większej elastyczności. Dlatego
+                możemy dostosować plan płatności do Waszych możliwości
+                finansowych – oferujemy również rozliczenia kwartalne, półroczne
+                oraz roczne. Skontaktuj się z nami i wybierzemy dogodne dla
+                Ciebie rozwiązanie.
+              </p>
+            </div>
+          </div>
+        </Container>
+
+        {/* TODO: Jak to działa? */}
       </Wrapper>
     </div>
   );

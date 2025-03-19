@@ -1,6 +1,12 @@
 import Footer from "@/components/navigation/footer";
 import Navbar from "@/components/navigation/navbar";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Inflow",
+  description: "Elektroniczny Obieg Dokumentów by Konektiva S.C.",
+};
 
 interface Props {
   children: React.ReactNode;

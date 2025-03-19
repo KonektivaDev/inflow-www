@@ -3,6 +3,7 @@ import Container from "@/components/global/container";
 import Wrapper from "@/components/global/wrapper";
 import SectionBadge from "@/components/ui/section-badge";
 import { modules, reports } from "@/constants";
+import Image from "next/image";
 import React from "react";
 
 export default function InFlowModules() {
@@ -19,7 +20,18 @@ export default function InFlowModules() {
             W skład systemu InFlow wchodzą moduły ewidencyjne i raportowe.
           </h2>
           <p className="text-xl mt-6">Zapoznaj się z ich opisem i funkcjami.</p>
-          <p>[ZDJĘCIE]</p>
+          <div className="relative flex items-center py-10 md:py-20 w-full">
+            <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
+            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
+              <Image
+                src="/assets/modules-01.jpg"
+                alt="InFlow"
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
           <h3 className="text-2xl lg:text-3xl 2xl:text-3xl mt-6 font-semibold">
             Moduły ewidencyjne:
           </h3>
@@ -41,7 +53,11 @@ export default function InFlowModules() {
                 <h3 className="text-lg font-medium mt-4">{module.title}</h3>
 
                 <p className="text-muted-foreground mt-2 text-justify">
-                  {module.info}
+                  {module.info.map((info, index) => (
+                    <p className="mb-4" key={index}>
+                      {info}
+                    </p>
+                  ))}
                 </p>
               </div>
             ))}
@@ -71,7 +87,11 @@ export default function InFlowModules() {
                 <h3 className="text-lg font-medium mt-4">{report.title}</h3>
 
                 <p className="text-muted-foreground mt-2 text-justify">
-                  {report.info}
+                  {report.info.map((info, index) => (
+                    <p className="mb-4" key={index}>
+                      {info}
+                    </p>
+                  ))}
                 </p>
               </div>
             ))}
