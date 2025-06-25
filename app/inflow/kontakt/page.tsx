@@ -1,4 +1,4 @@
-import { Mail, MapPinCheckInsideIcon } from "lucide-react";
+import { Mail, MapPinCheckInsideIcon, Settings2Icon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -27,6 +27,17 @@ export default function ContactPage() {
           <MapPinCheckInsideIcon className="w-10 h-10 text-primary" />
           <span>ul. Świeradowska 47, 02-662 Warszawa</span>
         </div>
+        <Link
+          href="mailto:office@konektiva.pl"
+          className="flex items-center gap-2"
+        >
+          <Mail className="w-10 h-10 text-primary" />
+          <span>office@konektiva.pl</span>
+        </Link>
+        <p className="flex items-center gap-2 font-bold mt-8">
+          <Settings2Icon className="w-10 h-10 text-primary" /> W sprawie systemu
+          inFlow
+        </p>
         <Link
           href="mailto:info@konektiva.pl"
           className="flex items-center gap-2"

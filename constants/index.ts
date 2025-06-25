@@ -174,7 +174,7 @@ export const pricingCards = [
   {
     title: "Mikro",
     description:
-      "Idealny pakiet dla małych organizacji, oferujący dostęp do systemu dla maksymalnie 5 użytkowników.",
+      "Idealny dla małych organizacji, oferujący dostęp do systemu dla maksymalnie 5 użytkowników.",
     price: "500 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
@@ -190,13 +190,13 @@ export const pricingCards = [
   {
     title: "Meso",
     description:
-      "Stworzony z myślą o średnich organizacjach, oferujący dostęp do systemu dla 15 maksymalnie użytkowników.",
+      "Dedykowany średnim organizacjom, zapewnia dostęp dla maksymalnie 20 użytkowników.",
     price: "1500 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
     buttonText: "Skontaktuj się z nami aby zamówić",
     features: [
-      "15 aktywnych użytkowników",
+      "20 aktywnych użytkowników",
       "30 dni bezpłatnego testowania",
       "Dostęp do wszystkich modułów",
       "Wsparcie techniczne i wdrożeniowe",
@@ -206,13 +206,29 @@ export const pricingCards = [
   {
     title: "Maxi",
     description:
-      "Doskonały wybór dla dużych organizacji, umożliwiający dostęp do systemu dla nielimitowanej liczby użytkowników.",
+      "Dla dużych organizacji, zapewniający dostęp do systemu dla maksymalnie 40 użytkowników.",
     price: "3000 PLN netto/msc",
     duration: "miesiąc",
     highlight: "Key features",
     buttonText: "Skontaktuj się z nami aby zamówić",
     features: [
-      "Nielimitowana liczba użytkowników",
+      "40 aktywnych użytkowników",
+      "30 dni bezpłatnego testowania",
+      "Dostęp do wszystkich modułów",
+      "Wsparcie techniczne i wdrożeniowe",
+    ],
+    priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
+  },
+  {
+    title: "Omni",
+    description:
+      "Dla największych organizacji, zapewniający dostęp dla nieograniczonej liczby użytkowników.",
+    price: "5000 PLN netto/msc",
+    duration: "miesiąc",
+    highlight: "Key features",
+    buttonText: "Skontaktuj się z nami aby zamówić",
+    features: [
+      "Nielimitowana liczba aktywnych użytkowników",
       "30 dni bezpłatnego testowania",
       "Dostęp do wszystkich modułów",
       "Wsparcie techniczne i wdrożeniowe",
